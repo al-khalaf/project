@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    transition: all 1s ease;
+}
+
+body{
+    background: url('https://lh3.googleusercontent.com/xtws065q8kGIEllcZhfyrwlXofvA6-hF-_SxssaJcGLtILXeTgWBNoyVJ2YTuMtblJHfKBpNHXpyxGQ4FE3aSyMu16RvLY95Uyh0l3HCmTQcbGYELYMh7izWcZ7GDl6VyA-GvUGJXjc');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   margin-top: 2em;
+}
+
+.right{
+    width: 5.9cm;
+    /* background-color: green; */
+    margin-left: auto;
+}
+
+.boxed{
+    border: 5px solid rgb(87, 61, 4);
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+
+.sub-title{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cards{
+    width: 80%;
+    height: 30em;
+    display: flex;
+    /* background-color: green; */
+    margin:auto;
+    margin-top: 3em;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-basis: content; */
+    /* flex-flow: wrap-reverse; */
+    /* flex-grow: ; */
+    justify-content: center;
+}
+
+.card{
+    background-image: url("https://lh3.googleusercontent.com/proxy/yRRw5cmekpVVnti1sv1dbQdBqdjQYTNXTF193x6j7RHgeE-jWqCrrX2MLkfdAM_zaoGiKinV7mnzHB1sg7QzScI4_-Ns4HQOq-1oO7ekQ7plaM4ugK1OOJhXZkVQAfPWlW9TTyUWK_WNpyMpH28mDLOanex1KN_j0GSdsdQzwjAezB4z-ztr3RITJrlJyG5J");
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 20px;
+    width: 20em;
+    height: 30em;
+    margin: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+.margin-top{
+    margin-top: 5em;
+}
+
+.card > img{
+    border-radius: 40%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.information{
+    width: 70%;
+    height: 60em;
+    background-image: url("https://lh3.googleusercontent.com/proxy/yRRw5cmekpVVnti1sv1dbQdBqdjQYTNXTF193x6j7RHgeE-jWqCrrX2MLkfdAM_zaoGiKinV7mnzHB1sg7QzScI4_-Ns4HQOq-1oO7ekQ7plaM4ugK1OOJhXZkVQAfPWlW9TTyUWK_WNpyMpH28mDLOanex1KN_j0GSdsdQzwjAezB4z-ztr3RITJrlJyG5J");
+    background-attachment: fixed; 
+    background-size: cover; 
+    margin: auto;
+    margin-top: 10em;
+    border-radius: 40px;
+    opacity: 0.4;
+    margin-bottom: 5em;
+    text-align: center;
+    color: rgb(37, 9, 161);
+    padding: 5em;
+}
